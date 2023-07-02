@@ -35,3 +35,5 @@ function schedule_mail(exp, smtp, content) {
     })
     return job
 }
+
+export {schedule_mail};
